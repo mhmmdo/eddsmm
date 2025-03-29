@@ -132,7 +132,7 @@ body.dark-mode .footer-social h3 {
     color: var(--dark);
 }
 
-body.dark-mode .nav-menu a,
+body.dark-mode .nav-menu a li,
 body.dark-mode footer a,
 body.dark-mode .footer-links a {
     color: #ddd;
@@ -288,14 +288,16 @@ p {
 .nav-menu {
     display: flex;
     list-style: none;
+    color: var(--primary);
 }
 
 .nav-menu li {
     margin-left: 30px;
+    color: var(--primary);
 }
 
 .nav-menu a {
-    color: var(--dark);
+    color: var(--primary);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -310,6 +312,7 @@ p {
 
 .nav-menu a i {
     font-size: 0.9rem;
+    color: var(--primary);
 }
 
 .hamburger {
